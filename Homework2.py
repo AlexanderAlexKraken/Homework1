@@ -1,0 +1,7 @@
+print("Привет! Это второе задание.")
+second = int(input("Введите время в секундах: "))
+hour = (second // 3600)
+second = (second % 3600)
+minute = (second // 60)
+second = (second % 60)
+print(f"hour: {hour}, minute: {minute}, second {second}")
